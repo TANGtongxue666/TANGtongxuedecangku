@@ -2,10 +2,11 @@
 //2198557277@qq.com
 //唐鑫
 #include <stdio.h>
-int main()
-{   // 函数声明，用于计算阶乘
+
+// 函数声明，用于计算阶乘
 int factorial(int n);
 
+// 正确的，只保留一个main函数
 int main() {
     int num;
     printf("请输入一个整数: ");
@@ -25,6 +26,6 @@ int factorial(int n) {
     } else {
         return n * factorial(n - 1);
     }
-    
+}
 
 
